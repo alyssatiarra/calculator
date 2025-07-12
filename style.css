@@ -19,19 +19,20 @@ section {
 .container {
   width: 90%;
   max-width: 400px;
-  background-color: #11a0a3;
+  background-color: #F8F8E1;
   border-radius: 8px;
   overflow: hidden; /*biar gabisa di scroll*/
 }
 
 .display {
-  background-color: lightgray;
+  background-color: #FFF7F3;
   height: 100px;
   width: 100%;
   text-align: right;
   padding: 20px;
   font-size: 30px;
   position: relative;
+  border: 1px solid #FFC1DA;
 }
 
 .display-history {
@@ -48,7 +49,7 @@ section {
 }
 
 .all_button {
-  color: white;
+  color: black;
   display: grid;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr); /*4 baris, 1 kolom*/
 }
@@ -59,7 +60,7 @@ section {
 }
 
 .button {
-    border: 0.5px solid #abb1e7;
+    border: 0.5px solid #FFC1DA;
     display: inline-block;
     height: 100px;
     width: 100%;
@@ -72,9 +73,13 @@ section {
 }
 
 .button:hover {
-    background-color: #18a8b3;
+    background-color: #FFC6C6;
 }
 
 .operation, .clear-all, .equal, .last-entity {
-    background-color: #0a939e;
+    background-color: #FF90BB;
+}
+
+.equal{
+  border-radius: 100%;
 }
