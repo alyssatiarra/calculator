@@ -22,6 +22,7 @@ section {
   background-color: #F8F8E1;
   border-radius: 8px;
   overflow: hidden; /*biar gabisa di scroll*/
+  border: #FF90BB 1px solid; /*border untuk container*/
 }
 
 .display {
